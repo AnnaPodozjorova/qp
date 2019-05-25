@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestProject.Persistence\TestProject.Persistence.csproj" />
+    <ProjectReference Include="..\TestProject\TestProject.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

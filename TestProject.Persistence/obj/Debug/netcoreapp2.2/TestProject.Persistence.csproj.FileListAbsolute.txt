@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Persistence.deps.json
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Persistence.dll
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.csprojAssemblyReference.cache
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.AssemblyInfo.cs
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Persistence.runtimeconfig.json
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Persistence.runtimeconfig.dev.json
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Persistence.pdb
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Domain.dll
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Domain.pdb
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.csproj.CopyComplete
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.dll
+C:\Users\User\Desktop\TestProject\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.pdb
