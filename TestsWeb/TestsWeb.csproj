@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-TestsWeb-7D7B35A0-2AA9-4A9D-B7E3-BAC291FD8064</UserSecretsId>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestProject.Persistence\TestProject.Persistence.csproj" />
+    <ProjectReference Include="..\TestProject.Repositories\TestProject.Repositories.csproj" />
+    <ProjectReference Include="..\TestProject\TestProject.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
