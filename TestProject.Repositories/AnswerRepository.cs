@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,23 +8,18 @@ using TestProject.Persistence;
 
 namespace TestProject.Repositories
 {
-    public class AnswersRepository : ITestRepository
+    public class AnswersRepository : IAnswerRepository
     {
         TestProjectDBContext context;
-
-        public AnswersRepository(string connectionName)
-        {
-            context = new TestProjectDBContext(connectionName);
-        }
 
         public AnswersRepository()
         {
             context = new TestProjectDBContext();
         }
 
-        public AnswersRepository(TestProjectDBContext dbContext)
+        public AnswersRepository(TestProjectDBContext context)
         {
-            context = dbContext;
+            this.context = context;
         }
 
         public Answer GetAnswerByID(int id)
@@ -31,17 +27,19 @@ namespace TestProject.Repositories
             return GetAll().Where(b => b.AnswerId == id).SingleOrDefault();
         }
 
-        public Answer GetAnswerByQuestion(int id)
+        public List<Answer> GetAnswerByQuestion(int id)
         {
-            return GetAll().Where(b => b.QuestionID == id).SingleOrDefault();
+            return GetAll().Where(b => b.QuestionID == id).ToList();
         }
 
-        public IQueryable<Answer> GetAll()
+        public IEnumerable<Answer> GetAll()
         {
-            return context.Answers.AsQueryable<Answer>();
+            var answers = context.Answers
+                .Include(fa => fa.Question);
+            return answers.AsQueryable<Answer>();
         }
 
-        public IQueryable<Answer> FindBy(System.Linq.Expressions.Expression<Func<Answer, bool>> predicate)
+        public IEnumerable<Answer> FindBy(Func<Answer, bool> predicate)
         {
             return GetAll().Where(predicate);
         }
@@ -57,7 +55,7 @@ namespace TestProject.Repositories
             context.Answers.Remove(entity);
         }
 
-        public void Edit(Domain.Entities.Answer entity)
+        public void Edit(Answer entity)
         {
             var originalEntity = context.Answers.Find(entity.AnswerId);
             context.Entry(originalEntity).CurrentValues.SetValues(entity);

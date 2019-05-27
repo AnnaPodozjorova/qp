@@ -10,7 +10,7 @@ namespace TestProject.Domain.Entities
         {
             QuestionQuiz = new HashSet<QuestionQuiz>();
             Answers = new HashSet<Answer>();
-            AsnwerQuestionQuizUsers = new HashSet<AnswerQuestionQuizUser>();
+            AnswerQuestionQuizUsers = new HashSet<AnswerQuestionQuizUser>();
         }
 
         public int QuestionId { get; set; }
@@ -18,6 +18,6 @@ namespace TestProject.Domain.Entities
         public int QuestionTime { get; set; }
         public virtual ICollection<QuestionQuiz> QuestionQuiz { get; set; }
         public virtual ICollection<Answer> Answers { get; set; }
-        public virtual ICollection<AnswerQuestionQuizUser> AsnwerQuestionQuizUsers { get; set; }
+        public virtual ICollection<AnswerQuestionQuizUser> AnswerQuestionQuizUsers { get; set; }
     }
 }

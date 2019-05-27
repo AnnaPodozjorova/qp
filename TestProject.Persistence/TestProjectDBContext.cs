@@ -42,30 +42,30 @@ namespace TestProject.Persistence
             base.OnModelCreating(modelBuilder);
             //one to many
             modelBuilder.Entity<Answer>()
-                .HasMany(c => c.AnswerQuestionQuizUsers).WithOne(c => c.Answer);
+                .HasMany(c => c.AnswerQuestionQuizUsers).WithOne(c => c.Answer).HasForeignKey(c => c.AnswerQuestionQuizUserId);
             modelBuilder.Entity<Question>()
-                .HasMany(c => c.AsnwerQuestionQuizUsers).WithOne(c => c.Question);
+                .HasMany(c => c.AnswerQuestionQuizUsers).WithOne(c => c.Question).HasForeignKey(c => c.AnswerQuestionQuizUserId);
             modelBuilder.Entity<Question>()
-                .HasMany(c => c.Answers).WithOne(c => c.Question);
+                .HasMany(c => c.Answers).WithOne(c => c.Question).HasForeignKey(c => c.AnswerId);
             modelBuilder.Entity<Quiz>()
-                .HasMany(c => c.QuizUser).WithOne(c => c.Quiz);
+                .HasMany(c => c.QuizUser).WithOne(c => c.Quiz).HasForeignKey(c => c.QuizId);
             modelBuilder.Entity<User>()
-                .HasMany(c => c.QuizUser).WithOne(c => c.User);
+                .HasMany(c => c.QuizUser).WithOne(c => c.User).HasForeignKey(c => c.QuizUserId);
             modelBuilder.Entity<QuizUser>()
-                .HasMany(c => c.AnswerQuestionQuizUser).WithOne(c => c.QuizUser);
+                .HasMany(c => c.AnswerQuestionQuizUser).WithOne(c => c.QuizUser).HasForeignKey(c => c.AnswerQuestionQuizUserId);
 
             modelBuilder.Entity<Answer>()
-                .HasOne(c => c.Question).WithMany(c => c.Answers);
+                .HasOne(c => c.Question).WithMany(c => c.Answers).HasForeignKey(c => c.QuestionID);
             modelBuilder.Entity<AnswerQuestionQuizUser>()
-                .HasOne(c => c.Answer).WithMany(c => c.AnswerQuestionQuizUsers);
+                .HasOne(c => c.Answer).WithMany(c => c.AnswerQuestionQuizUsers).HasForeignKey(c => c.AnswerId);
             modelBuilder.Entity<AnswerQuestionQuizUser>()
-                .HasOne(c => c.QuizUser).WithMany(c => c.AnswerQuestionQuizUser);
+                .HasOne(c => c.QuizUser).WithMany(c => c.AnswerQuestionQuizUser).HasForeignKey(c => c.QuizUserId);
             modelBuilder.Entity<AnswerQuestionQuizUser>()
-                .HasOne(c => c.Question).WithMany(c => c.AsnwerQuestionQuizUsers);
+                .HasOne(c => c.Question).WithMany(c => c.AnswerQuestionQuizUsers).HasForeignKey(c => c.QuestionId);
             modelBuilder.Entity<QuizUser>()
-                .HasOne(c => c.User).WithMany(c => c.QuizUser);
+                .HasOne(c => c.User).WithMany(c => c.QuizUser).HasForeignKey(c => c.UserId);
             modelBuilder.Entity<QuizUser>()
-                .HasOne(c => c.Quiz).WithMany(c => c.QuizUser);
+                .HasOne(c => c.Quiz).WithMany(c => c.QuizUser).HasForeignKey(c => c.QuizId);
 
             // many to many
             modelBuilder.Entity<RoleUser>().HasKey(ab => new { ab.RoleId, ab.UserId });

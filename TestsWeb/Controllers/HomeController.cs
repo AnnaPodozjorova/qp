@@ -4,14 +4,19 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using TestProject.Persistence;
+using TestProject.Repositories;
 using TestsWeb.Models;
 
 namespace TestsWeb.Controllers
 {
     public class HomeController : Controller
     {
+        IAnswerRepository ar;
+
         public IActionResult Index()
         {
+           // List<Answer> l = ar.GetAll().ToList();
             return View();
         }
 

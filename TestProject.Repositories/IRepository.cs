@@ -8,8 +8,8 @@ namespace TestProject.Repositories
 {
     public interface IRepository<T> : IDisposable where T : class
     {
-        IQueryable<T> GetAll();
-        IQueryable<T> FindBy(Expression<Func<T, bool>> predicate);
+        IEnumerable<T> GetAll();
+        IEnumerable<T> FindBy(Func<T, bool> predicate);
         void Add(T entity);
         void Delete(T entity);
         void Edit(T entity);

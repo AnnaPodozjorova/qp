@@ -5,9 +5,9 @@ using TestProject.Domain.Entities;
 
 namespace TestProject.Repositories
 {
-    public interface ITestRepository : IRepository<Answer>
+    public interface IAnswerRepository : IRepository<Answer>
     {
         Answer GetAnswerByID(int id);
-        Answer GetAnswerByQuestion(int id);
+        List<Answer> GetAnswerByQuestion(int id);
     }
 }
