@@ -6,13 +6,12 @@ using TestProject.Domain.Entities;
 
 namespace TestsWeb.Models
 {
-    public class Question
+    public class QuizViewModel
     {
-        public int QuestionId { get; set; }
+        public int QuizId { get; set; }
         public string Title { get; set; }
-        public int QuestionTime { get; set; }
+        public int Number { get; set; }
         public List<QuestionQuiz> QuestionQuiz { get; set; }
-        public List<Answer> Answers { get; set; }
-        public List<AnswerQuestionQuizUser> AnswerQuestionQuizUsers { get; set; }
+        public List<QuizUser> QuizUser { get; set; }
     }
 }

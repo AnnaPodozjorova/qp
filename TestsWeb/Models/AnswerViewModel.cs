@@ -6,7 +6,7 @@ using TestProject.Domain.Entities;
 
 namespace TestsWeb.Models
 {
-    public class Answer
+    public class AnswerViewModel
     {
         public int AnswerId { get; set; }
         public string Title { get; set; }

@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using TestProject.Domain.Entities;
 using TestProject.Persistence;
 using TestProject.Repositories;
 using TestsWeb.Models;
@@ -12,12 +13,17 @@ namespace TestsWeb.Controllers
 {
     public class HomeController : Controller
     {
-        IAnswerRepository ar;
+        IQuizRepository r;
+
+        public HomeController(IQuizRepository ar)
+        {
+            r = ar;
+        }
 
         public IActionResult Index()
         {
-           // List<Answer> l = ar.GetAll().ToList();
-            return View();
+            List<Quiz> list = r.GetAll().ToList();
+            return View(list);
         }
 
         public IActionResult Privacy()
