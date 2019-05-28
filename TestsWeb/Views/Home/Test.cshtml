@@ -1,47 +1,23 @@
 ﻿
 @{
     ViewData["Title"] = "Home page";
-    int count = 1, countR = 0;
-}
 
-<div class="container">
+}
 
 
         <h4 style="margin-top: 4%;"> <span class="label label-info">Questions :</span> </h4>
-
+        <form asp-controller="question" asp-action="submit">
             @foreach (var q in ViewBag.Questions)
             {
-                <div class="BlockQ" style="border: 1px solid #bdbdbd; width: 75%; border-radius: 4px; margin-top: 40px; background-color: #f0ffff; padding: 8px;">
+                @q.Title
+                <input type="hidden" name="questionId" value="@q.QuestionId" />
 
-                    <div class="Question" style="padding: 2%;">
-                        <span class="label label-warning"> @string.Format("{0}{1}.", "Q", count)</span>
-                        <span id="@string.Format("{0}{1}", "ID_Q", count)" style="display:none;">@q.QuestionId</span>
-                        <p style="display: inline; padding: 2%;" id="@string.Format("{0}{1}", "Q", count)">@q.Title</p>
-                    </div>
-
-                    <div class="Choices" style="margin-left: 8%;">
-
-                        @foreach (var c in q.Answers)
-                        {
-                            <label class="radio-inline">
-                                <input type="radio" name="@string.Format("{0}{1}", "inlineRadioOptions",count)" id="@string.Format("{0}{1}", "inlineRadio", countR)" value="@c.Title" style="margin-left: -16px;"> @c.Title
-                            </label><br />
-                            countR++;
-                        }
-
-                    </div> <!--END Choices-->
-
-                    <div id="@string.Format("{0}{1}{2}", "Ans","Q", count)">
-
-
-                    </div>
-
-                </div> <!-- END BlockQ -->
-                count++;
+                @foreach (var c in q.Answers)
+                {
+                    <li>
+                        <input type="radio" name="question_@q.QuestionId " value="@c.AnswerId" /> @c.Title
+                    </li>
+                }
             }
-            <span id="countQuections" style="display:none;">@count</span>
-            <button type="button" id="SubmitQuiz" class="btn btn-default" style="margin-top: 10px;"><span class="glyphicon glyphicon-ok"></span>   Submit Quiz </button>
-
-
-
-</div> <!-- END CONTAINER -->
+            <input type="submit" value="Submit" />
+        </form>

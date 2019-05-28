@@ -9,6 +9,7 @@ namespace TestProject.Repositories
     {
         Quiz GetQuizByID(int id);
         List<Question> GetQuestionsByQuizId(int id);
-        List<Answer> GetAnswersByQuestionId(int id); 
+        List<Answer> GetAnswersByQuestionId(int id);
+        Question GetQuestionByID(int id);
     }
 }

@@ -70,7 +70,12 @@ namespace TestProject.Repositories
             context.SaveChanges();
         }
 
-          public List<Question> GetQuestionsByQuizId(int id)
+        public Question GetQuestionByID(int id)
+        {
+            return context.Questions.Where(b => b.QuestionId == id).SingleOrDefault();
+        }
+
+        public List<Question> GetQuestionsByQuizId(int id)
         {
             IQueryable<Question> q = null;
             q = context.Questions.Where(r => r.QuestionQuiz.Any(u => u.QuizId == id))
