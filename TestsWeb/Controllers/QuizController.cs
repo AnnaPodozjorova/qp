@@ -22,5 +22,7 @@ namespace TestsWeb.Controllers
             List<Quiz> list = r.GetAll().ToList();
             return View(list);
         }
+
+
     }
 }

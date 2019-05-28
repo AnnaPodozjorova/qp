@@ -15,7 +15,7 @@ namespace TestProject.Domain.Entities
         public int QuizId { get; set; }
         public string Title { get; set; }
         public int number { get; set; }
-        public virtual ICollection<QuestionQuiz> QuestionQuiz { get; set; }
-        public virtual ICollection<QuizUser> QuizUser { get; set; }
+        public virtual ICollection<QuestionQuiz> QuestionQuiz { get; } = new List<QuestionQuiz>();
+        public virtual ICollection<QuizUser> QuizUser { get; } = new List<QuizUser>();
     }
 }

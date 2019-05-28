@@ -12,6 +12,6 @@ namespace TestProject.Domain.Entities
         }
         public int RoleID { get; set; }
         public string Title { get; set; }
-        public virtual ICollection<RoleUser> RoleUser { get; set; }
+        public virtual ICollection<RoleUser> RoleUser { get; } = new List<RoleUser>();
     }
 }

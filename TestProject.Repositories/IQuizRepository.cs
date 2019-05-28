@@ -8,5 +8,7 @@ namespace TestProject.Repositories
     public interface IQuizRepository : IRepository<Quiz>
     {
         Quiz GetQuizByID(int id);
+        List<Question> GetQuestionsByQuizId(int id);
+        List<Answer> GetAnswersByQuestionId(int id); 
     }
 }

@@ -11,10 +11,10 @@
     <h2>Quizzes</h2>
     <table class="table table-striped">
         <tbody>
-            @foreach (var a in Model)
+            @foreach (var a in ViewBag.Quizs)
             {
                 <tr>
-                    <td>@($"{a.Title}")</td>
+                    <td><a href="Home/Test/@a.QuizId">@($"{a.Title}")</a></td>
                 </tr>
             }
         </tbody>

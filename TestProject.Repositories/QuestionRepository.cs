@@ -64,6 +64,11 @@ namespace TestProject.Repositories
             return GetAll().Where(b => b.QuestionId == id).SingleOrDefault();
         }
 
+        public List<Question> GetQuestionByQuiz(Question q)
+        {
+            return GetAll().Where(b => b.QuestionQuiz == q).ToList();
+        }
+
         public void Save()
         {
             context.SaveChanges();

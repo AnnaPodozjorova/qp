@@ -18,7 +18,7 @@ namespace TestProject.Domain.Entities
         public string LastName { get; set; }
         public string telephone { get; set; }
         public string Email { get; set; }
-        public virtual ICollection<RoleUser> RoleUser { get; set; }
-        public virtual ICollection<QuizUser> QuizUser { get; set; }
+        public virtual ICollection<RoleUser> RoleUser { get; } = new List<RoleUser>();
+        public virtual ICollection<QuizUser> QuizUser { get; } = new List<QuizUser>();
     }
 }

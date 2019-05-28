@@ -22,8 +22,23 @@ namespace TestsWeb.Controllers
 
         public IActionResult Index()
         {
-            List<Quiz> list = r.GetAll().ToList();
-            return View(list);
+            IEnumerable<Quiz> quizzes = r.GetAll();
+            ViewBag.Quizs = quizzes;
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Test(int id)
+        {
+            ViewBag.QuizId = id;
+            ViewBag.Questions =r.GetQuestionsByQuizId(id);
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Results(int id)
+        {
+            return View();
         }
 
         public IActionResult Privacy()

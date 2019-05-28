@@ -17,6 +17,6 @@ namespace TestProject.Domain.Entities
         public virtual User User { get; set; }
         public DateTime Date { get; set; }
         public DateTime Begin { get; set; }
-        public virtual ICollection<AnswerQuestionQuizUser> AnswerQuestionQuizUser { get; set; }
+        public virtual ICollection<AnswerQuestionQuizUser> AnswerQuestionQuizUser { get; } = new List<AnswerQuestionQuizUser>();
     }
 }

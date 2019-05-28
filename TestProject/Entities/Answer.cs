@@ -12,6 +12,6 @@ namespace TestProject.Domain.Entities
         public Boolean IsTrue { get; set; }
         public int QuestionID { get; set; }
         public virtual Question Question { get; set; }
-        public virtual ICollection<AnswerQuestionQuizUser> AnswerQuestionQuizUsers { get; set; }
+        public virtual ICollection<AnswerQuestionQuizUser> AnswerQuestionQuizUsers { get; } = new List<AnswerQuestionQuizUser>();
     }
 }

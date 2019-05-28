@@ -37,3 +37,4 @@ C:\Users\User\Desktop\TestProject\TestsWeb\bin\Debug\netcoreapp2.2\TestProject.P
 C:\Users\User\Desktop\TestProject\TestsWeb\bin\Debug\netcoreapp2.2\TestProject.Repositories.pdb
 C:\Users\User\Desktop\TestProject\TestsWeb\bin\Debug\netcoreapp2.2\TestProject.Domain.pdb
 C:\Users\User\Desktop\TestProject\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Quiz\Index.g.cshtml.cs
+C:\Users\User\Desktop\TestProject\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Home\Test.g.cshtml.cs

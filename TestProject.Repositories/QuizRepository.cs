@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -56,8 +57,7 @@ namespace TestProject.Repositories
 
         public IEnumerable<Quiz> GetAll()
         {
-            var allquiz = context.Quizs;
-            return allquiz.AsQueryable<Quiz>();
+            return context.Quizs.AsQueryable<Quiz>();
         }
 
         public Quiz GetQuizByID(int id)
@@ -68,6 +68,37 @@ namespace TestProject.Repositories
         public void Save()
         {
             context.SaveChanges();
+        }
+
+          public List<Question> GetQuestionsByQuizId(int id)
+        {
+            IQueryable<Question> q = null;
+            q = context.Questions.Where(r => r.QuestionQuiz.Any(u => u.QuizId == id))
+            .Select(l => new Question
+            {
+                QuestionId = l.QuestionId,
+                Title = l.Title,
+                Answers = l.Answers.Select(c => new Answer
+                {
+                    AnswerId = c.AnswerId,
+                    Title = c.Title
+                }).ToList()
+            }).AsQueryable();
+
+            //var t = context.Questions.Where(r => r.QuestionQuiz.Any(u => u.QuizId == id));
+
+            //  context.Journalists.Where(x => x.QuizId==id).ToList();
+            /*  var e = from r in context.Questions
+              from u in r.QuestionQuiz
+              where u.QuizId == id
+              select r;*/
+
+            return q.ToList();
+        }
+        public List<Answer> GetAnswersByQuestionId(int id)
+        {
+            var e = context.Answers.Where(r => r.QuestionID == id).ToList();
+            return e;
         }
     }
 }
