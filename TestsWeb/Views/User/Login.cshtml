@@ -1,0 +1,21 @@
+﻿@using System.Security.Claims
+@model TestsWeb.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+
+<h2>Quizzes</h2>
+<table class="table table-striped">
+    <tbody>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td>@($"{a.Title}")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
