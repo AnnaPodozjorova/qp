@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "2.2.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -957,6 +978,34 @@
     }
   },
   "libraries": {
+    "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
+      "sha512": "GXmMD8/vuTLPLvKzKEPz/4vapC5e0cwx1tUVd83ePRyWF9CCrn/pg4/1I+tGkQqFLPvi3nlI2QtPtC6MQN8Nww==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.internal/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "microsoft.aspnetcore.cryptography.internal.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.internal.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.2.0": {
+      "sha512": "NCY0PH3nrFYbhqiq72rwWsUXlV4OAE0MOukvGvIBOTnEPMC1yVL42k1DXLnaIu+c0yfMAxIIG9Iuaykp9BQQQw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/netcoreapp2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "microsoft.aspnetcore.cryptography.keyderivation.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
+      ]
+    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -1658,7 +1707,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "kBo8Jhi6SEwpgrORRk3ncdJMQulR+Vv1h2X7JtsVShthCV/k1AinDrE4Y+VDAmgn0RzUvsRAqs8fBqHmefibqQ==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -3622,6 +3671,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation >= 2.2.0",
       "Microsoft.EntityFrameworkCore.Design >= 2.2.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.4",
       "Microsoft.EntityFrameworkCore.Tools >= 2.2.4",
@@ -3630,23 +3680,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\Mackaby\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\New folder\\TestProject.Persistence\\TestProject.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject.Persistence\\TestProject.Persistence.csproj",
       "projectName": "TestProject.Persistence",
-      "projectPath": "C:\\Users\\User\\Desktop\\New folder\\TestProject.Persistence\\TestProject.Persistence.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\New folder\\TestProject.Persistence\\obj\\",
+      "projectPath": "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject.Persistence\\TestProject.Persistence.csproj",
+      "packagesPath": "C:\\Users\\Mackaby\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mackaby\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3659,8 +3709,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\New folder\\TestProject\\TestProject.Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\New folder\\TestProject\\TestProject.Domain.csproj"
+            "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject\\TestProject.Domain.csproj": {
+              "projectPath": "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject\\TestProject.Domain.csproj"
             }
           }
         }
@@ -3674,6 +3724,10 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",
             "version": "[2.2.4, )"

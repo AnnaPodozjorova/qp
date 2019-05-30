@@ -1,13 +1,14 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "36dfb09cb41086ee22203d99d346033840fffb38"
+    "signature": "e2c009bb72592b97db8c992eeef4854e34eb6d06"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "TestProject.Persistence/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "2.2.0",
           "Microsoft.EntityFrameworkCore.Design": "2.2.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.4",
           "Microsoft.EntityFrameworkCore.Tools": "2.2.4",
@@ -15,6 +16,25 @@
         },
         "runtime": {
           "TestProject.Persistence.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "2.2.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -533,6 +553,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GXmMD8/vuTLPLvKzKEPz/4vapC5e0cwx1tUVd83ePRyWF9CCrn/pg4/1I+tGkQqFLPvi3nlI2QtPtC6MQN8Nww==",
+      "path": "microsoft.aspnetcore.cryptography.internal/2.2.0",
+      "hashPath": "microsoft.aspnetcore.cryptography.internal.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NCY0PH3nrFYbhqiq72rwWsUXlV4OAE0MOukvGvIBOTnEPMC1yVL42k1DXLnaIu+c0yfMAxIIG9Iuaykp9BQQQw==",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/2.2.0",
+      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.2.2.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",

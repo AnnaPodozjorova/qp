@@ -125,3 +125,46 @@ C:\Users\User\Desktop\New folder\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.Views
 C:\Users\User\Desktop\New folder\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.csproj.CopyComplete
 C:\Users\User\Desktop\New folder\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.dll
 C:\Users\User\Desktop\New folder\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.pdb
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\bin\Debug\netcoreapp2.2\TestsWeb.deps.json
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\bin\Debug\netcoreapp2.2\TestsWeb.runtimeconfig.json
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\bin\Debug\netcoreapp2.2\TestsWeb.runtimeconfig.dev.json
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\bin\Debug\netcoreapp2.2\TestsWeb.dll
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\bin\Debug\netcoreapp2.2\TestsWeb.pdb
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\bin\Debug\netcoreapp2.2\TestsWeb.Views.dll
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\bin\Debug\netcoreapp2.2\TestsWeb.Views.pdb
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\bin\Debug\netcoreapp2.2\TestProject.Domain.dll
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\bin\Debug\netcoreapp2.2\TestProject.Persistence.dll
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\bin\Debug\netcoreapp2.2\TestProject.Repositories.dll
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\bin\Debug\netcoreapp2.2\TestProject.Persistence.pdb
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\bin\Debug\netcoreapp2.2\TestProject.Repositories.pdb
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\bin\Debug\netcoreapp2.2\TestProject.Domain.pdb
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.csprojAssemblyReference.cache
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.csproj.CoreCompileInputs.cache
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.RazorAssemblyInfo.cache
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.RazorAssemblyInfo.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.AssemblyInfoInputs.cache
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.AssemblyInfo.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.TagHelpers.input.cache
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.TagHelpers.output.cache
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.RazorCoreGenerate.cache
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Home\Submit.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Home\Test.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Quiz\Index.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\User\Login.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\User\Register.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.RazorTargetAssemblyInfo.cache
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.RazorTargetAssemblyInfo.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.Views.pdb
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.csproj.CopyComplete
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.dll
+C:\Users\Mackaby\Source\Repos\qp3\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.pdb

@@ -40,3 +40,17 @@ C:\Users\User\Desktop\New folder\TestProject.Repositories\obj\Debug\netcoreapp2.
 C:\Users\User\Desktop\New folder\TestProject.Repositories\obj\Debug\netcoreapp2.2\TestProject.Repositories.csproj.CopyComplete
 C:\Users\User\Desktop\New folder\TestProject.Repositories\obj\Debug\netcoreapp2.2\TestProject.Repositories.dll
 C:\Users\User\Desktop\New folder\TestProject.Repositories\obj\Debug\netcoreapp2.2\TestProject.Repositories.pdb
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\bin\Debug\netcoreapp2.2\TestProject.Repositories.deps.json
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\bin\Debug\netcoreapp2.2\TestProject.Repositories.dll
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\bin\Debug\netcoreapp2.2\TestProject.Repositories.pdb
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\bin\Debug\netcoreapp2.2\TestProject.Domain.dll
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\bin\Debug\netcoreapp2.2\TestProject.Persistence.dll
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\bin\Debug\netcoreapp2.2\TestProject.Persistence.pdb
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\bin\Debug\netcoreapp2.2\TestProject.Domain.pdb
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\obj\Debug\netcoreapp2.2\TestProject.Repositories.csprojAssemblyReference.cache
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\obj\Debug\netcoreapp2.2\TestProject.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\obj\Debug\netcoreapp2.2\TestProject.Repositories.AssemblyInfoInputs.cache
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\obj\Debug\netcoreapp2.2\TestProject.Repositories.AssemblyInfo.cs
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\obj\Debug\netcoreapp2.2\TestProject.Repositories.csproj.CopyComplete
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\obj\Debug\netcoreapp2.2\TestProject.Repositories.dll
+C:\Users\Mackaby\Source\Repos\qp3\TestProject.Repositories\obj\Debug\netcoreapp2.2\TestProject.Repositories.pdb
