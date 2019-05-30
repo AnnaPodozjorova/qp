@@ -4886,7 +4886,7 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.1.1": {
-      "sha512": "+mqQrrJsDx5yxIq+wLYKHr6pVc08ETOzJFwE3QvWmEwM4CU5RNKGdqu47bk+HGScaT58ZCVFmjwpp0OBUxy1QA==",
+      "sha512": "HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.1.1",
       "files": [
@@ -5903,11 +5903,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mackaby\\Source\\Repos\\qp\\XUnitTestProject1\\XUnitTestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\Mackaby\\Source\\Repos\\qp2\\XUnitTestProject1\\XUnitTestProject1.csproj",
       "projectName": "XUnitTestProject1",
-      "projectPath": "C:\\Users\\Mackaby\\Source\\Repos\\qp\\XUnitTestProject1\\XUnitTestProject1.csproj",
+      "projectPath": "C:\\Users\\Mackaby\\Source\\Repos\\qp2\\XUnitTestProject1\\XUnitTestProject1.csproj",
       "packagesPath": "C:\\Users\\Mackaby\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mackaby\\Source\\Repos\\qp\\XUnitTestProject1\\obj\\",
+      "outputPath": "C:\\Users\\Mackaby\\Source\\Repos\\qp2\\XUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5926,14 +5926,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Mackaby\\Source\\Repos\\qp\\TestProject.Persistence\\TestProject.Persistence.csproj": {
-              "projectPath": "C:\\Users\\Mackaby\\Source\\Repos\\qp\\TestProject.Persistence\\TestProject.Persistence.csproj"
+            "C:\\Users\\Mackaby\\Source\\Repos\\qp2\\TestProject.Persistence\\TestProject.Persistence.csproj": {
+              "projectPath": "C:\\Users\\Mackaby\\Source\\Repos\\qp2\\TestProject.Persistence\\TestProject.Persistence.csproj"
             },
-            "C:\\Users\\Mackaby\\Source\\Repos\\qp\\TestProject.Repositories\\TestProject.Repositories.csproj": {
-              "projectPath": "C:\\Users\\Mackaby\\Source\\Repos\\qp\\TestProject.Repositories\\TestProject.Repositories.csproj"
+            "C:\\Users\\Mackaby\\Source\\Repos\\qp2\\TestProject.Repositories\\TestProject.Repositories.csproj": {
+              "projectPath": "C:\\Users\\Mackaby\\Source\\Repos\\qp2\\TestProject.Repositories\\TestProject.Repositories.csproj"
             },
-            "C:\\Users\\Mackaby\\Source\\Repos\\qp\\TestProject\\TestProject.Domain.csproj": {
-              "projectPath": "C:\\Users\\Mackaby\\Source\\Repos\\qp\\TestProject\\TestProject.Domain.csproj"
+            "C:\\Users\\Mackaby\\Source\\Repos\\qp2\\TestProject\\TestProject.Domain.csproj": {
+              "projectPath": "C:\\Users\\Mackaby\\Source\\Repos\\qp2\\TestProject\\TestProject.Domain.csproj"
             }
           }
         }
@@ -5952,6 +5952,7 @@
             "version": "[15.9.0, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

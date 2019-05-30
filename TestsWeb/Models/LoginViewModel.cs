@@ -17,5 +17,6 @@ namespace TestsWeb.Models
         [StringLength(50, ErrorMessage = " {0} Must be 2 to 1 symbols", MinimumLength = 8)]
         [DataType(DataType.Password)]
         public string Password { get; set; }
+        
     }
 }

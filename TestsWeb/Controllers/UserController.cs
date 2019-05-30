@@ -8,7 +8,7 @@ using TestProject.Repositories;
 
 namespace TestsWeb.Controllers
 {
-    public class QuizController : Controller
+    /*public class QuizController : Controller
     {
         private TestsProjectDBContext db;
         public UserController(TestsProjectDBContext context)
@@ -51,5 +51,5 @@ namespace TestsWeb.Controllers
 
             return View(model);
         }
-    }
+    }*/
 }

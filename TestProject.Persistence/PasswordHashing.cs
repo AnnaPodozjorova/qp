@@ -6,7 +6,7 @@ namespace TestProject.Persistence
 {
     public class PasswordHashing
     {
-            public static string Create(string value, string salt)
+           /* public static string Create(string value, string salt)
             {
                 var valueBytes = KeyDerivation.Pbkdf2(
                                     password: value,
@@ -18,5 +18,5 @@ namespace TestProject.Persistence
             }
             public static bool Validate(string value, string salt, string hash)
                 => Create(value, salt) == hash;
-        }
+        */}
 }

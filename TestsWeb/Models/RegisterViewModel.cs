@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace TestsWeb.Models
 {
@@ -36,4 +37,5 @@ namespace TestsWeb.Models
         public int RoleId { get; set; }
         public SelectList RoleName { get; set; }
     }
+
 }
