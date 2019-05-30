@@ -20,13 +20,24 @@ namespace TestsWeb.Controllers
         {
             r = ar;
         }
-        public IActionResult Index(string searchString)
+        public IActionResult Index(string sortOrder, string searchString)
         {   var e = r.GetAll();
             IEnumerable<Quiz> quizzes = r.GetAll();
             ViewBag.Quizs = quizzes;
             if (!String.IsNullOrEmpty(searchString))
             {
                 ViewBag.Quizs = quizzes.Where(s => s.Title.ToLower().Contains(searchString.ToLower()));
+            }
+
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            switch (sortOrder)
+            {
+                case "name_desc":
+                    ViewBag.Quizs = quizzes.OrderByDescending(s => s.Title);
+                    break;
+                default:
+                    ViewBag.Quizs = quizzes;
+                    break;
             }
             return View();
         }

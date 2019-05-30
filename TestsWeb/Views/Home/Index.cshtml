@@ -13,11 +13,16 @@
         <tbody>
             @using (Html.BeginForm())
             {
-                <p>
-                    Find by name: @Html.TextBox("SearchString")
-                    <input type="submit" value="Search" />
-                </p>
-            }
+            <p>
+                @Html.ActionLink("Sort by: Title", "Index", new { sortOrder = ViewBag.NameSortParm })
+            </p>
+                
+            <p>
+
+                Find by name: @Html.TextBox("SearchString")
+                <input type="submit" value="Search" />
+            </p>
+        }
 
             @foreach (var a in ViewBag.Quizs)
             {
