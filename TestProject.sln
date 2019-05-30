@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject.Repositories", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsWeb", "TestsWeb\TestsWeb.csproj", "{672BF6C0-E5F5-4CCA-A58A-0ED4788718E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{FCB13910-A01E-483D-8CD7-C61C53DCB621}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{672BF6C0-E5F5-4CCA-A58A-0ED4788718E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{672BF6C0-E5F5-4CCA-A58A-0ED4788718E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{672BF6C0-E5F5-4CCA-A58A-0ED4788718E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB13910-A01E-483D-8CD7-C61C53DCB621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB13910-A01E-483D-8CD7-C61C53DCB621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB13910-A01E-483D-8CD7-C61C53DCB621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB13910-A01E-483D-8CD7-C61C53DCB621}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
