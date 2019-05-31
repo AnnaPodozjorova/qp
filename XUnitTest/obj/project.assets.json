@@ -6772,7 +6772,7 @@
       ]
     },
     "System.Xml.XmlDocument/4.0.1": {
-      "sha512": "2eZu6IP+etFVBBFUFzw2w6J21DqIN5eL9Y8r8JfJWUmV28Z5P0SNU01oCisVHQgHsDhHPnmq2s1hJrJCFZWloQ==",
+      "sha512": "1iXI8vpFmDrENN4t2nz+92HnDpj/2gGXgsOVikqjFn0ylutAsZazpR8d583Wu2noy4LXBi1cfzbDD0kR3XPyPw==",
       "type": "package",
       "path": "system.xml.xmldocument/4.0.1",
       "files": [
@@ -7123,23 +7123,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mackaby\\.nuget\\packages\\": {},
+    "C:\\Users\\tanko\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mackaby\\source\\repos\\qp3\\XUnitTest\\XUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\tanko\\Source\\Repos\\qp4\\XUnitTest\\XUnitTest.csproj",
       "projectName": "XUnitTest",
-      "projectPath": "C:\\Users\\Mackaby\\source\\repos\\qp3\\XUnitTest\\XUnitTest.csproj",
-      "packagesPath": "C:\\Users\\Mackaby\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mackaby\\source\\repos\\qp3\\XUnitTest\\obj\\",
+      "projectPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\XUnitTest\\XUnitTest.csproj",
+      "packagesPath": "C:\\Users\\tanko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\XUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mackaby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tanko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7152,14 +7152,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject.Persistence\\TestProject.Persistence.csproj": {
-              "projectPath": "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject.Persistence\\TestProject.Persistence.csproj"
+            "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject.Persistence\\TestProject.Persistence.csproj": {
+              "projectPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject.Persistence\\TestProject.Persistence.csproj"
             },
-            "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject.Repositories\\TestProject.Repositories.csproj": {
-              "projectPath": "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject.Repositories\\TestProject.Repositories.csproj"
+            "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject.Repositories\\TestProject.Repositories.csproj": {
+              "projectPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject.Repositories\\TestProject.Repositories.csproj"
             },
-            "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject\\TestProject.Domain.csproj": {
-              "projectPath": "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject\\TestProject.Domain.csproj"
+            "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject\\TestProject.Domain.csproj": {
+              "projectPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject\\TestProject.Domain.csproj"
             }
           }
         }

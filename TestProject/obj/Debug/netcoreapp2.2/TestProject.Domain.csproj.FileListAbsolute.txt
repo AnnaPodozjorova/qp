@@ -32,3 +32,12 @@ C:\Users\Mackaby\Source\Repos\qp3\TestProject\obj\Debug\netcoreapp2.2\TestProjec
 C:\Users\Mackaby\Source\Repos\qp3\TestProject\obj\Debug\netcoreapp2.2\TestProject.Domain.AssemblyInfo.cs
 C:\Users\Mackaby\Source\Repos\qp3\TestProject\obj\Debug\netcoreapp2.2\TestProject.Domain.dll
 C:\Users\Mackaby\Source\Repos\qp3\TestProject\obj\Debug\netcoreapp2.2\TestProject.Domain.pdb
+C:\Users\tanko\Source\Repos\qp4\TestProject\bin\Debug\netcoreapp2.2\TestProject.Domain.deps.json
+C:\Users\tanko\Source\Repos\qp4\TestProject\bin\Debug\netcoreapp2.2\TestProject.Domain.dll
+C:\Users\tanko\Source\Repos\qp4\TestProject\bin\Debug\netcoreapp2.2\TestProject.Domain.pdb
+C:\Users\tanko\Source\Repos\qp4\TestProject\obj\Debug\netcoreapp2.2\TestProject.Domain.csprojAssemblyReference.cache
+C:\Users\tanko\Source\Repos\qp4\TestProject\obj\Debug\netcoreapp2.2\TestProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tanko\Source\Repos\qp4\TestProject\obj\Debug\netcoreapp2.2\TestProject.Domain.AssemblyInfoInputs.cache
+C:\Users\tanko\Source\Repos\qp4\TestProject\obj\Debug\netcoreapp2.2\TestProject.Domain.AssemblyInfo.cs
+C:\Users\tanko\Source\Repos\qp4\TestProject\obj\Debug\netcoreapp2.2\TestProject.Domain.dll
+C:\Users\tanko\Source\Repos\qp4\TestProject\obj\Debug\netcoreapp2.2\TestProject.Domain.pdb

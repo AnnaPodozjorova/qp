@@ -6,7 +6,7 @@
 
 
 <h4 style="margin-top: 4%;"> <span class="label label-info">Question: </span> </h4>
-<form asp-controller="question" asp-action="submit">
+<form asp-controller="HomeController" asp-action="Submit">
     @foreach (var q in ViewBag.Questions)
     {
         @q.Title

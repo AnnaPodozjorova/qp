@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mackaby\\.nuget\\packages\\": {},
+    "C:\\Users\\tanko\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mackaby\\Source\\Repos\\qp3\\TestProject\\TestProject.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject\\TestProject.Domain.csproj",
       "projectName": "TestProject.Domain",
-      "projectPath": "C:\\Users\\Mackaby\\Source\\Repos\\qp3\\TestProject\\TestProject.Domain.csproj",
-      "packagesPath": "C:\\Users\\Mackaby\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mackaby\\Source\\Repos\\qp3\\TestProject\\obj\\",
+      "projectPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject\\TestProject.Domain.csproj",
+      "packagesPath": "C:\\Users\\tanko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mackaby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tanko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

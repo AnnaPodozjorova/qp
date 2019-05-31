@@ -3662,23 +3662,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mackaby\\.nuget\\packages\\": {},
+    "C:\\Users\\tanko\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject.Repositories\\TestProject.Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject.Repositories\\TestProject.Repositories.csproj",
       "projectName": "TestProject.Repositories",
-      "projectPath": "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject.Repositories\\TestProject.Repositories.csproj",
-      "packagesPath": "C:\\Users\\Mackaby\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject.Repositories\\obj\\",
+      "projectPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject.Repositories\\TestProject.Repositories.csproj",
+      "packagesPath": "C:\\Users\\tanko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mackaby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tanko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3691,11 +3691,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject.Persistence\\TestProject.Persistence.csproj": {
-              "projectPath": "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject.Persistence\\TestProject.Persistence.csproj"
+            "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject.Persistence\\TestProject.Persistence.csproj": {
+              "projectPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject.Persistence\\TestProject.Persistence.csproj"
             },
-            "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject\\TestProject.Domain.csproj": {
-              "projectPath": "C:\\Users\\Mackaby\\source\\repos\\qp3\\TestProject\\TestProject.Domain.csproj"
+            "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject\\TestProject.Domain.csproj": {
+              "projectPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject\\TestProject.Domain.csproj"
             }
           }
         }

@@ -54,3 +54,17 @@ C:\Users\Mackaby\Source\Repos\qp3\TestProject.Persistence\obj\Debug\netcoreapp2.
 C:\Users\Mackaby\Source\Repos\qp3\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.csproj.CopyComplete
 C:\Users\Mackaby\Source\Repos\qp3\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.dll
 C:\Users\Mackaby\Source\Repos\qp3\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.pdb
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Persistence.deps.json
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Persistence.runtimeconfig.json
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Persistence.runtimeconfig.dev.json
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Persistence.dll
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Persistence.pdb
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Domain.dll
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\bin\Debug\netcoreapp2.2\TestProject.Domain.pdb
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.csprojAssemblyReference.cache
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.AssemblyInfoInputs.cache
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.AssemblyInfo.cs
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.csproj.CopyComplete
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.dll
+C:\Users\tanko\Source\Repos\qp4\TestProject.Persistence\obj\Debug\netcoreapp2.2\TestProject.Persistence.pdb
