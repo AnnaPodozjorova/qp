@@ -75,6 +75,7 @@ namespace TestsWeb.Controllers
         }
 
         [HttpPost]
+        [Route("default4")]
         public ViewResult Submit(IFormCollection iformcollection)
         {
             int score = 0;

@@ -79,6 +79,18 @@ namespace TestsWeb
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+                routes.MapRoute(
+                    name: "default2",
+                    template: "{controller=Quiz}/{action=Edit}"
+                        );
+                routes.MapRoute(
+                    name: "default3",
+                    template: "{controller=Quiz}/{action=Add}"
+                        );
+                routes.MapRoute(
+                    name: "default4",
+                    template: "{controller=Home}/{action=Submit}"
+                        );
             });
         }
     }
