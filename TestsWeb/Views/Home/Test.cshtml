@@ -14,9 +14,9 @@
 
         @foreach (var c in q.Answers)
         {
-            <li>
+            <div>
                 <input type="radio" name="question_@q.QuestionId " value="@c.AnswerId" /> @c.Title
-            </li>
+            </div>
         }
     }
     <input type="submit" value="Submit" />

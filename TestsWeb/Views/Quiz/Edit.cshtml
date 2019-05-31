@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Edit Quiz";
+}
+
+<h4 style="margin-top: 4%;"> <span class="label label-info">Edit: </span> </h4>
+<H1>Edit Quiz</H1>
+<form asp-controller="QuizController" asp-action="Edit">
+    <label>Quiz Id</label>
+    <input type="text" size="40" name="id">
+    <label>Quiz Title</label>
+    <input type="text" size="40" name="Title">
+    <label>Quiz Questions (numbers separate ;)</label>
+    <input type="text" size="40" name="Questions">
+    <input type="submit" value="Edit">
+</form>
+
+<h1>Edit Question</h1>
+<form asp-controller="QuizController" asp-action="Edit_Question">
+    <label>Question Id</label>
+    <input type="text" size="40" name="id">
+    <label>Question Title</label>
+    <input type="text" size="50" name="Title">
+    <label>Question Time (number)</label>
+    <input type="text" size="40" name="Answers">
+    <input type="submit" value="Edit">
+</form>
+
+<h1>Edit Answer</h1>
+<form asp-controller="QuizController" asp-action="Edit_Answer">
+    <label>Answer Id</label>
+    <input type="text" size="40" name="id">
+    <label>Answer Title</label>
+    <input type="text" size="50" name="Title">
+    <label>Answer IsTrue</label>
+    <input type="text" size="40" name="True">
+    <label>Answer QuestionId</label>
+    <input type="text" size="40" name="QuestionId">
+    <input type="submit" value="Edit">
+</form>

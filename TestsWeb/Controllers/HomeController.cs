@@ -89,7 +89,7 @@ namespace TestsWeb.Controllers
                 }
             }
             ViewBag.score = score;
-            return View("/Home/Submit");
+            return View("Home/Submit");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

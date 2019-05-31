@@ -46,9 +46,15 @@
                     <td><a href="Home/Test/@a.QuizId">@($"{a.Title}")</a></td>
                 </tr>
             }
+            <form action="Quiz/Edit.cshtml">
+                <input type="submit" value="Edit">
+            </form>
+            <form action="Quiz/Add.cshtml">
+                <input type="submit" value="Add">
+            </form>
             <footer class="container-fluid text-center">
-        <p>Footer Text</p>
-    </footer>
+                <p>Footer Text</p>
+            </footer>
         </tbody>
     </table>
 </div>
