@@ -75,7 +75,7 @@ namespace TestsWeb.Controllers
         }
 
         [HttpPost]
-        public IActionResult Submit(IFormCollection iformcollection)
+        public ViewResult Submit(IFormCollection iformcollection)
         {
             int score = 0;
             string[] qIds = iformcollection["questionId"];

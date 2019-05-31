@@ -11,12 +11,12 @@ namespace TestsWeb.Controllers
 {
     public class QuizController : Controller
     {
-        QuizRepository r;
-        QuestionRepository q;
-        AnswersRepository a;
+        IQuizRepository r;
+        IQuestionRepository q;
+        IAnswerRepository a;
         TestProjectDBContext context;
 
-        public QuizController(QuizRepository ar)
+        public QuizController(IQuizRepository ar)
         {
             r = ar;
             context = new TestProjectDBContext();
