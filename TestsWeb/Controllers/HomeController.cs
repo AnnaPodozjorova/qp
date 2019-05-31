@@ -76,7 +76,7 @@ namespace TestsWeb.Controllers
 
         [HttpPost]
         [Route("default4")]
-        public ViewResult Submit(IFormCollection iformcollection)
+        public void Submit(IFormCollection iformcollection)
         {
             int score = 0;
             string[] qIds = iformcollection["questionId"];
@@ -90,7 +90,7 @@ namespace TestsWeb.Controllers
                 }
             }
             ViewBag.score = score;
-            return View("Home/Submit");
+            Response.Redirect("/Home/Submit");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

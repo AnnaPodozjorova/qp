@@ -6,7 +6,6 @@
 
 <div class="text-center">
     <h1 class="display-4">Quizz</h1>
-    
 
 
     <div class="container-fluid text-center">
@@ -17,7 +16,7 @@
                 <h2>Why should you do quizz?</h2>
                 <p>In the world of education there are many different ways to teach and to consolidate what has been learned. In years gone by, children were expected to memorise dates, formulae and figures by rote. But this method of teaching can be quite dull, to say the least! One tool becoming more common, especially in online education, is quizzes. In this guide we’ll find out the many reasons why quizzes are valuable in learning.</p>
                 <hr>
-                <h3><a href="Home/Test"><button type="button" class="btn btn-primary btn-lg btn-block">Begin the test!</button></a></h3>
+                <h3><a href="Home/Test/"><button type="button" class="btn btn-primary btn-lg btn-block">Begin the test!</button></a></h3>
             </div>
             <div class="col-sm-2 sidenav">
             </div>
@@ -46,15 +45,16 @@
                     <td><a href="Home/Test/@a.QuizId">@($"{a.Title}")</a></td>
                 </tr>
             }
-            <form action="Quiz/Edit.cshtml">
-                <input type="submit" value="Edit">
-            </form>
-            <form action="Quiz/Add.cshtml">
-                <input type="submit" value="Add">
-            </form>
-            <footer class="container-fluid text-center">
-                <p>Footer Text</p>
-            </footer>
+
         </tbody>
     </table>
+    <form action="Quiz/Edit">
+        <input type="submit" value="Edit">
+    </form>
+    <form action="Quiz/Add">
+        <input type="submit" value="Add">
+    </form>
+    <footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer>
 </div>
