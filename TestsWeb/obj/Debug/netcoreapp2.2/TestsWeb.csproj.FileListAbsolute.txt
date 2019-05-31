@@ -213,3 +213,5 @@ C:\Users\tanko\Source\Repos\qp4\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.dll
 C:\Users\tanko\Source\Repos\qp4\TestsWeb\obj\Debug\netcoreapp2.2\TestsWeb.pdb
 C:\Users\tanko\Source\Repos\qp4\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Quiz\Edit.g.cshtml.cs
 C:\Users\tanko\Source\Repos\qp4\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Quiz\Add.g.cshtml.cs
+C:\Users\User\Desktop\New folder\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Quiz\Add.g.cshtml.cs
+C:\Users\User\Desktop\New folder\TestsWeb\obj\Debug\netcoreapp2.2\Razor\Views\Quiz\Edit.g.cshtml.cs

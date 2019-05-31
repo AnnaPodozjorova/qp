@@ -20,13 +20,13 @@ namespace TestsWeb.Controllers
         {
             r = ar;
         }
-        public IActionResult Index(string sortOrder, string searchString)
-        {   var e = r.GetAll();
+        public IActionResult Index(string sortOrder, string SearchString)
+        {  // var e = r.GetAll();
             IEnumerable<Quiz> quizzes = r.GetAll();
             ViewBag.Quizs = quizzes;
-            if (!String.IsNullOrEmpty(searchString))
+            if (!String.IsNullOrEmpty(SearchString))
             {
-                ViewBag.Quizs = quizzes.Where(s => s.Title.ToLower().Contains(searchString.ToLower()));
+                ViewBag.Quizs = quizzes.Where(s => s.Title.ToLower().Contains(SearchString.ToLower()));
             }
 
             ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
@@ -74,9 +74,7 @@ namespace TestsWeb.Controllers
             return View();
         }
 
-        [HttpPost]
-        [Route("default4")]
-        public void Submit(IFormCollection iformcollection)
+        public IActionResult Submit(IFormCollection iformcollection)
         {
             int score = 0;
             string[] qIds = iformcollection["questionId"];
@@ -90,7 +88,7 @@ namespace TestsWeb.Controllers
                 }
             }
             ViewBag.score = score;
-            Response.Redirect("/Home/Submit");
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

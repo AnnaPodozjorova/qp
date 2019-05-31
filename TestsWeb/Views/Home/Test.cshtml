@@ -8,59 +8,20 @@
 <h4 style="margin-top: 4%;"> <span class="label label-info">Question: </span> </h4>
 @using (Html.BeginForm("Submit", "HomeController", FormMethod.Post))
 {
-    <form asp-controller="HomeController" asp-action="Submit" method="post">
-        @foreach (var q in ViewBag.Questions)
+
+    @foreach (var q in ViewBag.Questions)
+    {
+        @q.Title
+        <input type="hidden" name="questionId" value="@q.QuestionId" />
+
+        @foreach (var c in q.Answers)
         {
-            @q.Title
-            <input type="hidden" name="questionId" value="@q.QuestionId" />
-
-            @foreach (var c in q.Answers)
-            {
-                <div>
-                    <input type="radio" name="question_@q.QuestionId " value="@c.AnswerId" /> @c.Title
-                </div>
-            }
+            <div>
+                <input type="radio" name="question_@q.QuestionId " value="@c.AnswerId" /> @c.Title
+            </div>
         }
-        <input type="submit" value="Submit" />
-    </form>
-}
+    }
+} <form action="/Home/Submit"><input type="submit" value="Submit" /> </form>
 
-    <div class="container-fluid text-center">
-        <div class="row content">
-            <div class="col-sm-2 sidenav">
 
-            </div>
-
-            <div class="col-sm-8 text-left">
-                <p></p>
-                <hr>
-                <h3>Vastus</h3>
-                <div class="form-group">
-                    <label for="comment">Vali uks oige:</label>
-                    <div class="custom-control custom-radio">
-                        <input type="radio" class="custom-control-input" id="defaultGroupExample1" name="groupOfDefaultRadios">
-                        <label class="custom-control-label" for="defaultGroupExample1">Option 1</label>
-                    </div>
-                    <div class="custom-control custom-radio">
-                        <input type="radio" class="custom-control-input" id="defaultGroupExample2" name="groupOfDefaultRadios" checked>
-                        <label class="custom-control-label" for="defaultGroupExample2">Option 2</label>
-                    </div>
-                    <div class="custom-control custom-radio">
-                        <input type="radio" class="custom-control-input" id="defaultGroupExample3" name="groupOfDefaultRadios">
-                        <label class="custom-control-label" for="defaultGroupExample3">Option 3</label>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2 sidenav">
-                <div class="well">
-                    <p>Time left: mm:ss</p>
-                </div>
-                <div class="well">
-                    <p>Progress: 1/10</p>
-                </div>
-            </div>
-            <div class="container">
-
-            </div>
-        </div>
-    </div>
+       

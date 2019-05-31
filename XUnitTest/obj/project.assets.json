@@ -3163,7 +3163,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "kBo8Jhi6SEwpgrORRk3ncdJMQulR+Vv1h2X7JtsVShthCV/k1AinDrE4Y+VDAmgn0RzUvsRAqs8fBqHmefibqQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -6772,7 +6772,7 @@
       ]
     },
     "System.Xml.XmlDocument/4.0.1": {
-      "sha512": "1iXI8vpFmDrENN4t2nz+92HnDpj/2gGXgsOVikqjFn0ylutAsZazpR8d583Wu2noy4LXBi1cfzbDD0kR3XPyPw==",
+      "sha512": "8f3u2RvfaC+IzSg7cI4cVHlRebHe8FrQs1w9A9Ri/BGfKx2EE2XbWb0biL12+26ZLhp+G8pNblUNF1wuBnlo/g==",
       "type": "package",
       "path": "system.xml.xmldocument/4.0.1",
       "files": [
@@ -7123,23 +7123,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tanko\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tanko\\Source\\Repos\\qp4\\XUnitTest\\XUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\New folder\\XUnitTest\\XUnitTest.csproj",
       "projectName": "XUnitTest",
-      "projectPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\XUnitTest\\XUnitTest.csproj",
-      "packagesPath": "C:\\Users\\tanko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\XUnitTest\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\New folder\\XUnitTest\\XUnitTest.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\New folder\\XUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tanko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7152,14 +7152,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject.Persistence\\TestProject.Persistence.csproj": {
-              "projectPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject.Persistence\\TestProject.Persistence.csproj"
+            "C:\\Users\\User\\Desktop\\New folder\\TestProject.Persistence\\TestProject.Persistence.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\New folder\\TestProject.Persistence\\TestProject.Persistence.csproj"
             },
-            "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject.Repositories\\TestProject.Repositories.csproj": {
-              "projectPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject.Repositories\\TestProject.Repositories.csproj"
+            "C:\\Users\\User\\Desktop\\New folder\\TestProject.Repositories\\TestProject.Repositories.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\New folder\\TestProject.Repositories\\TestProject.Repositories.csproj"
             },
-            "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject\\TestProject.Domain.csproj": {
-              "projectPath": "C:\\Users\\tanko\\Source\\Repos\\qp4\\TestProject\\TestProject.Domain.csproj"
+            "C:\\Users\\User\\Desktop\\New folder\\TestProject\\TestProject.Domain.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\New folder\\TestProject\\TestProject.Domain.csproj"
             }
           }
         }

@@ -16,7 +16,6 @@
                 <h2>Why should you do quizz?</h2>
                 <p>In the world of education there are many different ways to teach and to consolidate what has been learned. In years gone by, children were expected to memorise dates, formulae and figures by rote. But this method of teaching can be quite dull, to say the least! One tool becoming more common, especially in online education, is quizzes. In this guide we’ll find out the many reasons why quizzes are valuable in learning.</p>
                 <hr>
-                <h3><a href="Home/Test/"><button type="button" class="btn btn-primary btn-lg btn-block">Begin the test!</button></a></h3>
             </div>
             <div class="col-sm-2 sidenav">
             </div>
@@ -29,14 +28,13 @@
             @using (Html.BeginForm())
             {
                 <p>
-                    @Html.ActionLink("Sort by: Title", "Index", new { sortOrder = ViewBag.NameSortParm })
-                </p>
-
-                <p>
-
                     Find by name: @Html.TextBox("SearchString")
                     <input type="submit" value="Search" />
                 </p>
+                <p>
+                    @Html.ActionLink("Sort by: Title", "Index", new { sortOrder = ViewBag.NameSortParm })
+                </p>
+
             }
 
             @foreach (var a in ViewBag.Quizs)
@@ -55,6 +53,6 @@
         <input type="submit" value="Add">
     </form>
     <footer class="container-fluid text-center">
-        <p>Footer Text</p>
+        <p></p>
     </footer>
 </div>

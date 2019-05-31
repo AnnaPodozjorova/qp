@@ -41,3 +41,4 @@ C:\Users\tanko\Source\Repos\qp4\TestProject\obj\Debug\netcoreapp2.2\TestProject.
 C:\Users\tanko\Source\Repos\qp4\TestProject\obj\Debug\netcoreapp2.2\TestProject.Domain.AssemblyInfo.cs
 C:\Users\tanko\Source\Repos\qp4\TestProject\obj\Debug\netcoreapp2.2\TestProject.Domain.dll
 C:\Users\tanko\Source\Repos\qp4\TestProject\obj\Debug\netcoreapp2.2\TestProject.Domain.pdb
+C:\Users\User\Desktop\New folder\TestProject\obj\Debug\netcoreapp2.2\TestProject.Domain.csprojAssemblyReference.cache
